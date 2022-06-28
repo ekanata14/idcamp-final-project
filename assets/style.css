@@ -351,6 +351,7 @@ footer .footer-wrapper .footer-list ul{
 footer .footer-wrapper .footer-list li{
     font-weight: bold;
     margin: 8px;
+    cursor: pointer;
 }
 
 aside{
