@@ -21,6 +21,10 @@ a{
     color: inherit;
 }
 
+article{
+    margin:80px 0;
+}
+
 .orange{
     color: #FAAE62;
     background-color: #FAAE62;
@@ -71,6 +75,10 @@ a{
     border-radius: 10px;
 }
 
+.fa-bars{
+    cursor: pointer;
+}
+
 /* Header Style */
 
 header{
@@ -105,14 +113,17 @@ header .header-wrapper .header-list ul{
 
 header .header-wrapper .header-list li{
     font-weight: bold;
-    border-bottom: 2px solid transparent;
+    border-bottom: 5px solid transparent;
     transition: border-bottom 0.2s ease-in;
     cursor: pointer;
 }
 
 header .header-wrapper .header-list li:hover{
-    border-bottom: 2px solid #FAAE62;
+    border-bottom: 5px solid #FAAE62;
+}
 
+header .header-wrapper .header-list li:active{
+    border-bottom: 5px solid #475184;
 }
 
 header .header-wrapper .header-list i{
@@ -149,15 +160,16 @@ header .header-wrapper .header-list i{
     top: 20px;
     left: 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .side-bar ul li{
     padding: 28px 20px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* Jumbotron Style */
-
 .main-wrapper{
     height: 100%;
     width: 100%;
@@ -210,8 +222,8 @@ header .header-wrapper .header-list i{
 .about{
     display: flex;
     align-items: center;
-    padding-top:80px;
     font-size: 20px;
+    padding-top: 80px;
 }
 
 .about-left img{
@@ -291,7 +303,22 @@ header .header-wrapper .header-list i{
 footer{
     width: 100%;
     height: 450px;
-    background-color: #475184;
+    background-color: rgba(71, 81, 132);    
+}
+
+footer::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+    background-image: url(images/jumbotron-background.svg);
+    background-size:auto;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 footer .footer-wrapper{
@@ -300,23 +327,25 @@ footer .footer-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 footer .footer-wrapper .footer-list{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 45%;
     font-size: 20px;
 }
 
 footer .footer-wrapper .footer-list ul{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top:20px;
 }
 
 footer .footer-wrapper .footer-list li{
@@ -328,7 +357,7 @@ aside{
     width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
