@@ -182,8 +182,25 @@
 
     }
 
+    .side-bar ul li{
+        font-size: 16px;
+    }
+
+    .side-bar .fa-xmark{
+        font-size: 28px;
+    }
+
+    .jumbotron-left h1{
+        font-size: 24px;
+    }
+
+    .jumbotron-left p{
+        font-size: 16px;
+    }
+
     .jumbotron-left .buttons ul{
         flex-direction: column;
+        font-size: 16px;
     }
 
     .jumbotron-left .buttons ul p{
@@ -198,17 +215,36 @@
         width: 100%;
     }
 
+    .about-right h2{
+        font-size: 24px;
+    }
+
+    .about-right p{
+        font-size: 16px;
+    }
+
+    .features-title h2{
+        font-size: 24px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
     .item{
         width: 100%;
         margin-bottom: 40px;
     }
 
+    .item h3, p, i{
+        font-size: 16px;
+    }
+
     footer{
-        height: 875px;
+        height: 1000px;
     }
 
     footer .footer-wrapper{
-        padding-bottom: 40px;
+        padding: 0;
     }
 
     footer .footer-wrapper .footer-list ul{
@@ -217,6 +253,10 @@
 
     footer .footer-wrapper .footer-list ul li{
         margin: 16px 0;
+    }
+
+    footer .footer-wrapper .footer-list ul li a{
+        font-size: 16px;
     }
 
     aside{

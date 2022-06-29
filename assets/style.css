@@ -157,9 +157,9 @@ header .header-wrapper .header-list i{
 
 .side-bar .close{
     position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 20px;
+    top: 40px;
+    left: 40px;
+    font-size: 24px;
     cursor: pointer;
 }
 
@@ -208,12 +208,14 @@ header .header-wrapper .header-list i{
     font-size: 32px;
     padding-bottom: 4px;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .jumbotron-left p{
     opacity: 100%;
     color: #808080;
     background-color: #fff;
+    border-radius: 10px;
 }
 
 .jumbotron-right img{
