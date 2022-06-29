@@ -95,6 +95,18 @@
         padding-bottom: 40px;
     }
 
+    .about .about-right h2{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .about .about-right p{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
     .features{
         margin-top: 40px;
     }
@@ -107,6 +119,7 @@
     .item{
         width: 50%;
         margin-bottom: 40px;
+        background-color: #fff;
     }
 
     footer{
