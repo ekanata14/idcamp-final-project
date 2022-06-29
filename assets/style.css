@@ -318,7 +318,7 @@ footer::before{
     height: 2500px;
     opacity: 1;
     z-index: -1;
-    background-image: url(images/background-jumbotron-2-fix.svg);
+    background-image: url(images/jumbotron-background-3-fix.svg);
     background-size:cover;
     background-repeat: no-repeat;
 }
