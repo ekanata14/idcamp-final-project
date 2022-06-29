@@ -171,6 +171,8 @@ header .header-wrapper .header-list i{
     padding: 28px 20px;
     font-size: 20px;
     cursor: pointer;
+    font-weight: bold;
+    color: #3A3A3A;
 }
 
 /* Jumbotron Style */
@@ -241,11 +243,14 @@ header .header-wrapper .header-list i{
 
 .about-right h2{
     padding-bottom: 8px;
+    color: #3A3A3A;
 }
 
 .about-right p{
     padding-top:20px;
     text-align: justify;
+    color: #3A3A3A;
+    font-weight: 500;
 }
 
 /* Features Styles */
@@ -265,6 +270,7 @@ header .header-wrapper .header-list i{
 
 .features-title h2{
     padding-bottom: 8px;
+    color: #3A3A3A;
 }
 
 .features-items{
@@ -360,6 +366,10 @@ footer .footer-wrapper .footer-list li{
     font-weight: bold;
     margin: 8px;
     cursor: pointer;
+}
+
+footer .footer-wrapper .footer-list .button{
+    color: #3A3A3A;
 }
 
 aside{
