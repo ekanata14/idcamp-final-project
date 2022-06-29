@@ -72,6 +72,14 @@
     header .header-title{
         padding-left: 25px;
     }
+    
+    header .header-wrapper .header-title{
+        width: 100%;
+    }
+
+    header .header-wrapper .header-title img{
+        width: 100px;
+    }
 
     header .header-wrapper .header-list ul{
         justify-content: flex-end;
@@ -79,6 +87,7 @@
 
     }
 
+    
     .jumbotron{
         flex-direction: column;
     }
@@ -263,11 +272,24 @@
         flex-direction: column;
     }
 
+    aside .aside-desc{
+        padding-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     aside .aside-img{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     aside .aside-img img{
         width: 100%;
+    }
+
+    aside .aside-desc p{
+        text-align: center;
     }
 }
